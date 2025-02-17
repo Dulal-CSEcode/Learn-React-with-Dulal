@@ -56,7 +56,7 @@ Create React App (CRA) is a boilerplate tool that sets up a new React project wi
    npm start
    ```
 
-### 🔹 Using Vite {#using-vite}
+### 🔹 Using Vite
 Vite is a fast build tool optimized for modern JavaScript frameworks.
 
 **Steps to set up a React project using Vite:**
