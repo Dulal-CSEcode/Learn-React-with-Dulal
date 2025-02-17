@@ -1,130 +1,159 @@
-# 📘 React Introduction and Setup Guide
-# React Introduction and Setup Guide
+# React Learning Course Outline
 
-This document provides an introduction to React, a popular JavaScript library for building user interfaces, and guides you through setting up a React environment using two common tools: **Create React App (CRA)** and **Vite**. Additionally, it covers the basics of JSX and React components.
-
----
+This repository contains the course materials and tasks for learning React. Below is the detailed outline of the course, including the topics covered in each class and the associated homework/tasks.
 
 ## Table of Contents
-1. [What is React?](#what-is-react)
-2. [Advantages of React](#advantages-of-react)
-3. [Setting up a React Environment](#setting-up-a-react-environment)
-   - [Using Create React App (CRA)](#using-create-react-app-cra)
-   - [Using Vite](#using-vite)
-4. [JSX Basics](#jsx-basics)
-5. [Components in React](#components-in-react)
-   - [Functional Components](#functional-components)
-   - [Class Components](#class-components)
+
+1. [Class-01: Introduction to React](#class-01-introduction-to-react)
+2. [Class-02: React Basics](#class-02-react-basics)
+3. [Class-03: React Developer Tools](#class-03-react-developer-tools)
+4. [Class-04: Styling in React](#class-04-styling-in-react)
+5. [Class-05: React Forms and Validation](#class-05-react-forms-and-validation)
+6. [Class-06: React Router](#class-06-react-router)
+7. [Class-07: State Management](#class-07-state-management)
+8. [Class-08: React Hooks](#class-08-react-hooks)
+9. [Class-09: Advanced React](#class-09-advanced-react)
+10. [Class-10: Working with APIs](#class-10-working-with-apis)
 
 ---
 
-## What is React?
+## Class-01: Introduction to React
 
-React is a JavaScript library developed by Facebook for building user interfaces, especially for single-page applications (SPAs). It allows developers to create reusable UI components that update efficiently in response to data changes. React follows a component-based architecture and uses a **virtual DOM** for optimized rendering.
+### Topics Covered:
+- What is React?
+- Advantages of React
+- Setting up a React environment (using `create-react-app` or `Vite`)
+- JSX Basics
+- Components (Functional and Class components)
 
----
-
-## Advantages of React
-
-React offers several advantages that make it a popular choice for front-end development:
-
-1. **Component-Based Architecture** - Code is divided into reusable components, making development and maintenance easier.
-2. **Virtual DOM** - React updates only the necessary parts of the UI, improving performance.
-3. **Unidirectional Data Flow** - Ensures better control over data and prevents unintended side effects.
-4. **Fast and Efficient** - Uses a lightweight representation of the real DOM (virtual DOM) for optimal performance.
-5. **Strong Community Support** - A large ecosystem of developers, tools, and third-party libraries.
-6. **React Native** - Allows mobile app development using the same React principles.
+### Homework/Tasks:
+1. Install React in your system and create a "Hello World" app.
+2. Create a functional component that displays a greeting message and use it in the main component.
 
 ---
 
-## Setting up a React Environment
+## Class-02: React Basics
 
-There are multiple ways to set up a React environment. Below are two commonly used methods:
+### Topics Covered:
+- Props and State
+- Event Handling
+- Conditional Rendering
+- List Rendering
+- Key Prop Importance
 
-### Using Create React App (CRA)
-
-Create React App (CRA) is a boilerplate tool that sets up a new React project with a good default configuration.
-
-#### Steps to set up a React project using CRA:
-
-1. Install **Node.js** (which includes npm or yarn).
-2. Open a terminal and run the following commands:
-
-   ```bash
-   npx create-react-app my-app
-   cd my-app
-   npm start
-   ```
-
-### 🔹 Using Vite
-Vite is a fast build tool optimized for modern JavaScript frameworks.
-
-**Steps to set up a React project using Vite:**
-
-1. Install Node.js.
-2. Open a terminal and run:
-   ```sh
-   npm create vite@latest my-app --template react
-   cd my-app
-   npm install
-   npm run dev
-   ```
+### Homework/Tasks:
+1. Create a simple TODO app with functionalities to add and delete tasks.
+2. Create a component that takes user data (like name and age) as props and displays it.
 
 ---
 
-## 🎨 JSX Basics
-JSX (JavaScript XML) is a syntax extension for JavaScript that allows writing HTML-like code within JavaScript.
+## Class-03: React Developer Tools
 
-### Example:
-```jsx
-const element = <h1>Hello, React!</h1>;
-ReactDOM.createRoot(document.getElementById('root')).render(element);
-```
+### Topics Covered:
+- Debugging with React DevTools
+- Inspecting components and states
 
-### Key Points about JSX:
-- JSX must be enclosed in a single parent element.
-- Use `{}` to embed JavaScript expressions inside JSX.
-- Class attributes use `className` instead of `class`.
-- JSX elements must be properly closed.
+### Homework/Tasks:
+1. Install and explore React DevTools. Inspect a component's state and props.
 
 ---
 
-## 🏗️ Components in React
-React applications are built using components. Components are reusable and can be classified into two types:
+## Class-04: Styling in React
 
-### 🔹 Functional Components
-Functional components are JavaScript functions that return JSX.
+### Topics Covered:
+- Inline Styling
+- CSS Modules
+- Styled Components (Optional: Tailwind CSS, if interested)
 
-**Example:**
-```jsx
-function Greeting() {
-  return <h1>Hello, World!</h1>;
-}
-```
-
-### 🔹 Class Components
-Class components are ES6 classes that extend `React.Component` and use a `render` method.
-
-**Example:**
-```jsx
-class Greeting extends React.Component {
-  render() {
-    return <h1>Hello, World!</h1>;
-  }
-}
-```
+### Homework/Tasks:
+1. Style the TODO app with a clean design (use CSS modules or inline styles).
 
 ---
 
-## 📌 Summary
-- **What is React?**
-- **Advantages of React**
-- **Setting up a React Environment**
-  - Using Create React App (CRA)
-  - Using Vite
-- **JSX Basics**
-- **Components in React**
-  - Functional Components
-  - Class Components
+## Class-05: React Forms and Validation
 
-🚀 *Happy Coding with React!* 🎉
+### Topics Covered:
+- Controlled and Uncontrolled Components
+- Handling Form Inputs
+- Basic Validation (using built-in methods)
+
+### Homework/Tasks:
+1. Create a form to take user registration details (name, email, password).
+2. Validate the email and password fields.
+
+---
+
+## Class-06: React Router
+
+### Topics Covered:
+- React Router Basics
+- Nested Routing
+- Dynamic Routing
+- Redirects
+
+### Homework/Tasks:
+1. Create a multi-page app with Home, About, and Contact pages.
+2. Add a 404 page for invalid routes.
+
+---
+
+## Class-07: State Management
+
+### Topics Covered:
+- Context API
+- React Redux (Actions, Reducers, Store)
+- Middleware (e.g., Redux Thunk)
+
+### Homework/Tasks:
+1. Refactor the TODO app to use Context API for state management.
+2. Create a counter app using Redux.
+
+---
+
+## Class-08: React Hooks
+
+### Topics Covered:
+- Basic Hooks: `useState`, `useEffect`
+- Advanced Hooks: `useContext`, `useReducer`, `useRef`
+- Custom Hooks
+
+### Homework/Tasks:
+1. Create a timer app that starts, pauses, and resets using hooks.
+2. Build a custom hook for fetching data from an API.
+
+---
+
+## Class-09: Advanced React
+
+### Topics Covered:
+- Higher-Order Components (HOCs)
+- Render Props
+- Error Boundaries
+- React Memo and Performance Optimization
+
+### Homework/Tasks:
+1. Create an error boundary component to catch errors in a specific part of the app.
+2. Optimize the TODO app using React Memo.
+
+---
+
+## Class-10: Working with APIs
+
+### Topics Covered:
+- Fetching Data with `fetch` and `axios`
+- Handling API Errors
+- Displaying Loading States
+
+### Homework/Tasks:
+1. Fetch a list of users from the JSONPlaceholder API and display them in a table.
+2. Add search functionality to filter users.
+
+---
+
+## How to Use This Repository
+
+1. Clone the repository to your local machine.
+2. Navigate to the specific class folder to find the relevant code and tasks.
+3. Follow the instructions in each class's README file to complete the tasks.
+
+Happy Coding! 🚀
