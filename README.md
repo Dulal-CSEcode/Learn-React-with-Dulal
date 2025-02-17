@@ -1,21 +1,4 @@
-# React Introduction and Setup Guide
-
-This document provides an introduction to React, a popular JavaScript library for building user interfaces, and guides you through setting up a React environment using two common tools: **Create React App (CRA)** and **Vite**. Additionally, it covers the basics of JSX and React components.
-
----
-
-## Table of Contents
-1. [What is React?](#what-is-react)
-2. [Advantages of React](#advantages-of-react)
-3. [Setting up a React Environment](#setting-up-a-react-environment)
-   - [Using Create React App (CRA)](#using-create-react-app-cra)
-   - [Using Vite](#using-vite)
-4. [JSX Basics](#jsx-basics)
-5. [Components in React](#components-in-react)
-   - [Functional Components](#functional-components)
-   - [Class Components](#class-components)
-
-# 📘 Introduction to React
+# 📘 React Introduction and Setup Guide
 
 ## 📑 Table of Contents
 1. [What is React?](#what-is-react)
